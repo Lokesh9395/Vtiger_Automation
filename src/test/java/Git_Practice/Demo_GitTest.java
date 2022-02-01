@@ -23,6 +23,7 @@ public class Demo_GitTest
 	public void sample3_gitTest()
 	{
 		System.out.println("executing 3rd method");
+		System.out.println("commit from master");
 	}
 
 }
