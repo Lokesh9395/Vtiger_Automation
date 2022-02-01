@@ -13,10 +13,16 @@ public class Demo_GitTest
 		System.out.println("user2 made an update , please pull it");
 	}
 	
-	@Test(groups="RT")
+	@Test(groups="RRT")
 	public void sample2_gitTest()
 	{
 		System.out.println("executing 2nd method");
+	}
+	
+	@Test(groups="FRT")
+	public void sample3_gitTest()
+	{
+		System.out.println("executing 3rd method");
 	}
 
 }
